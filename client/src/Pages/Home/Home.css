@@ -1,0 +1,83 @@
+.HomeContainer {
+    background-image: linear-gradient(rgb(232, 232, 232), rgba(206, 206, 206, 0.7)), url('https://c1.wallpaperflare.com/preview/481/463/709/drink-man-male-car.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.CoursesContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.CourseMajorContainer {
+    position: absolute;
+}
+
+.RequestIcons {
+    display: flex;
+    min-width: 300px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.RequestIcons .Icon {
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.RequestIcons .Icon:hover {
+    transition: 0.2s linear;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 650px) {
+    .CoursesContainer {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+.Container {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 54%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 54%);
+    height: 500px;
+    background-color: red;
+    border-radius: 0px 0px 100px 0px;
+} */

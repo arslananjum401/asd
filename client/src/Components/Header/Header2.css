@@ -1,0 +1,63 @@
+header {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+header>* {
+    margin: 0px 100px;
+}
+
+.IconContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50%; */
+}
+
+.SearhIcon {
+    margin: 3.5px;
+    height: 25px;
+    cursor: pointer;
+}
+
+.SearhIcon:hover {
+    transition: 0.3s linear;
+    height: 34px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.logo {
+    width: 100px;
+    max-height: 30px;
+    background-image: url("logo.png");
+    background-size: cover;
+}
+
+.link:hover {
+    transition: 0.2s linear;
+    color: #A1A3EF;
+}
+
+nav {
+    font-family: var(--SemiBoldfont);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>.link {
+    margin: 10px 17px;
+}
+
+.active {
+    color: #3A0C80;
+}

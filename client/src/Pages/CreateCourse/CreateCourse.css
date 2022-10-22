@@ -1,0 +1,75 @@
+.UpdateCourse {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.UpdateCourse>* {
+    padding: 5px;
+    text-decoration: none;
+    margin: 10px 50px;
+    background-color: green;
+    color: white;
+}
+
+.UpdateCourse a:hover {
+    transition: .2;
+    transform: scale(1.02);
+    color: white;
+}
+
+.CourseForm {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.CourseForm input {
+    margin: 10px;
+    min-width: 400px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.CourseForm textarea {
+    margin: 10px;
+    width: 90%;
+    font-size: 18px;
+    border-radius: 5px;
+    min-height: 200px;
+    height: 40vh;
+    border: 1px solid black;
+    resize: none;
+}
+
+.CourseForm button {
+    border: 1px solid black;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(97, 190, 97);
+}
+
+.CourseForm button:hover {
+    transition: 0.15s linear;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.70);
+}
+
+.CourseForm>* {
+    padding: 5px;
+    margin: 15px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}

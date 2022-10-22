@@ -1,0 +1,20 @@
+.CheckoutForm{
+    width: 50%;
+    height: 50vh;
+    background-color: rgb(131, 131, 131);
+}
+/* !EnrolledCourses?.Bought ?
+                                            <>
+                                                <button onClick={BuyProduct} className='UpdateCourse'>
+                                                    Buy this Course
+                                                </button>
+                                                {!ProductInCart
+                                                    ? <button onClick={AddToCart} className='UpdateCourse'>
+                                                        Add to Cart
+                                                    </button>
+                                                    : <button onClick={RemoveFromCart} className='UpdateCourse'>
+                                                        Remove From Cart
+                                                    </button>
+                                                }
+                                            </>
+                                            : */

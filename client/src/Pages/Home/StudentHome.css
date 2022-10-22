@@ -1,0 +1,51 @@
+.StudentForm {
+    overflow: hidden;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 117px);
+    background-image:linear-gradient(rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)), url('https://th.bing.com/th/id/R.1336051ab6392d7b2fa5c4c5ae598d6f?rik=VgtMlqD4m%2f3Jew&pid=ImgRaw&r=0');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+
+
+}
+.hideStudentForm{
+    display: none;
+}
+.StudentForm>* {
+    /* border: 1px solid red; */
+    margin: 20px;
+    height: 80px;
+}
+
+.StudentForm>*>label {
+    color: white;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.FormBtn {
+    min-height: auto;
+    max-height: auto;
+    height: auto;
+    font-size: 16px;
+    padding: 5px 10px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.SelectOptions {
+    background-color: white;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+}

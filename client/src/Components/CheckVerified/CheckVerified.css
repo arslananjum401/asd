@@ -1,0 +1,61 @@
+.CheckVerifiedContainer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: whitesmoke;
+    position: relative;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 30%;
+    min-width: 500px;
+}
+
+.CheckVerified {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: white;
+}
+
+.CheckVerifiedContainer>* {
+    margin: 5px 5px;
+}
+
+.CheckVerifiedContainer h3 {
+    text-align: center;
+}
+
+.CheckVerified>* {
+    margin: 10px 5px;
+}
+
+.CheckVerified p {
+    color: rgb(109, 109, 109);
+}
+
+.CheckVerified h4 {
+    height: 15px;
+}
+
+.CheckVerifiedBtn {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.CheckVerifiedBtn button {
+    border: none;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #1ab443;
+    color: white;
+}
+
+.CheckVerifiedBtn button:hover {
+    transform: scale(1.01);
+    transition: 0.2s;
+}

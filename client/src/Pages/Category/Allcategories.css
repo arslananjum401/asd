@@ -1,0 +1,18 @@
+.CategoryContainer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid green;
+    margin: 20px 20px;
+    padding: 10px;
+}
+.CategoryContainer:hover{
+    transform: scale(1.01);
+    transition: 0.2s;
+}
+.CategoryContainer>*{
+    min-width: 200px;
+}
+.CategoryContainer .DelIcon{
+    cursor: pointer;
+}

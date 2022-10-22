@@ -1,0 +1,28 @@
+.AllInstitutesContainer{
+    display: flex;
+    justify-content: flex-start;
+    /* align-items: flex-start; */
+}
+.bold{
+    font-weight: 500;
+}
+.AllInstitutesContainer>*{
+    margin: 10px;
+}
+.InstituteContainer{
+
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    background-color: green;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.InstituteContainer:hover{
+    transition: 0.2s linear;
+    transform: scale(1.05);
+}
+.InstituteContainer>*{
+    margin: 5px 0px;
+}

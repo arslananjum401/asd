@@ -1,0 +1,105 @@
+.UpperHeader {
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* border: 1px solid green; */
+    width: 100%;
+}
+
+.UpperHeader>* {
+    min-width: 200px;
+    width: 30%;
+}
+
+.UpperHeader a {
+    text-decoration: none;
+}
+
+
+header {
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+
+header button {
+    padding: 4px;
+    background-color: rgb(93, 187, 93);
+    color: black;
+    border: 1px solid black;
+    margin: 0px 10px;
+}
+
+header button:hover {
+    transition: 0.2s;
+    background-color: white;
+    border: 1px solid black;
+}
+
+header h2 {
+    color: green;
+    text-align: center;
+}
+
+.HeaderLeft {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.NavButton {
+    position: relative;
+    text-decoration: none;
+    padding: 4px;
+    background-color: rgb(93, 187, 93);
+    color: black;
+    margin: 0px 10px;
+}
+
+
+
+.LowerHeader {
+    margin: 10px 0px 5px 0px;
+    padding: 5px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid green;
+}
+
+.LogSignBtns {
+    display: flex;
+}
+
+.LogSignBtns>* {
+    color: green;
+    
+    margin: 0px 10px;
+}
+.LogSignBtns>*:hover {
+    transition: .3s;
+    transform: scale(1.05);
+    color: black;
+}
+
+
+.NotificationIcon{
+
+    position: absolute;
+    right: -10px;
+    top: -5px;
+}

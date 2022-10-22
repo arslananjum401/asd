@@ -1,0 +1,60 @@
+.CourseData {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.CourseData>* {
+    min-width: 200px;
+  
+    word-wrap: break-word;
+    margin: 10px 15px;
+}
+
+.CourseInfoContainer {
+    width: 60%;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+
+/* .CourseHeading:last-child,.CourseInfo:last-child{
+    margin: 0px;
+} */
+.CourseHeading>*,
+.CourseInfo>* {
+    margin: 10px;
+}
+.CourseInfo>*{
+    font-weight: 500;
+}
+
+.CourseInfo {
+    margin: 0px 10px;
+}
+
+.ProgressContainer {
+    
+    min-width: 300px;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.ProgressContainer h4 {
+    margin: 0px 10px;
+    font-weight: 500;
+}
+.DescriptionContainer {
+    width: 80%;
+    padding: 0px 10px;
+}
+.DescriptionData {
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 100;
+}

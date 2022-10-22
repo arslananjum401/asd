@@ -1,0 +1,31 @@
+.CategoryForm{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.CategoryForm>*{
+    margin: 10px;
+}
+.CategoryForm>input{
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+.CategoryForm>button{
+    font-size: 18px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.CategoryForm>button:hover{
+    color: black;
+    transition: 0.3s;
+    background-color: white;
+
+}

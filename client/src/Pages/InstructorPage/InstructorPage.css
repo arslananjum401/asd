@@ -1,0 +1,48 @@
+.Instructors {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.HDcontainer {
+    display: flex;
+    position: relative;
+    justify-content: flex-start;
+    border: 1px solid black;
+    width: 50%;
+
+}
+
+.ButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ButtonContainer>* {
+    text-decoration: none;
+    border: 1px solid black;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    margin: 10px;
+}
+.ButtonContainer>*:hover{
+    color: black;
+    transition: 0.2s;
+    background-color: white;
+}
+
+.HDcontainer>* {
+
+    margin: 20px;
+}
+
+
+
+.dataContainer h2 {
+    font-weight: 500;
+}

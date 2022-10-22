@@ -1,0 +1,65 @@
+.AllInstructors {
+    padding: 20px;
+}
+
+.AllInstructors a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 10px;
+    color: black;
+}
+
+.MAllInstructors {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.SingleContainer {
+    width: fit-content;
+    padding: 5px;
+    display: flex;
+
+    background-color: green;
+    border: 1px solid black;
+}
+
+.SingleContainer>* {
+    color: white;
+}
+
+.SingleContainer:hover {
+    background-color: white;
+    transition: 0.2s;
+    transform: scale(1.02);
+}
+
+.SingleContainer:hover .headingContainer,
+.SingleContainer:hover .ValueContainer {
+    color: black;
+}
+
+.changeColor {
+    transition: .2s;
+    color: black;
+}
+
+.headingContainer,
+.ValueContainer {
+    transition: .2s;
+    margin: 5px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.headingContainer>* {
+    font-size: 20px;
+    font-weight: 700;
+    min-width: 150px;
+}
+
+.ValueContainer>* {
+    font-weight: 500;
+    min-width: 150px;
+}

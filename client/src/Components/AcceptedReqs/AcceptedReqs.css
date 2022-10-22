@@ -1,0 +1,35 @@
+.ReqContainer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid red;
+    width: 90%;
+    margin: 10px;
+    padding: 5px;
+}
+.ReqContainer>*{
+    width: 200px;
+}
+.ReqContainer:hover{
+    transition: 0.2s;
+    transform: scale(1.01);
+}
+
+.DownloadBtn {
+    text-align: center;
+    padding:5px 10px;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 10px;
+    white-space: nowrap;
+    border: none;
+}
+
+.DownloadBtn:hover {
+    border: 1px solid green;
+    transition: 0.3s;
+    color: black;
+    background-color: rgba(61, 206, 61, 0);
+}

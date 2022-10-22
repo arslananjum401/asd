@@ -1,0 +1,28 @@
+.Categories {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+}
+.Categories>*{
+    text-align: center;
+    color: black;
+}
+.CategoriesContainer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+.CategoriesContainer>*{
+    min-width: 150px;
+    cursor: pointer;
+    color: rgb(35, 118, 35);
+}
+
+.CategoriesContainer>*:hover{
+    transition: 0.1s linear;
+    transform: scale(1.03);
+}

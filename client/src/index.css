@@ -1,0 +1,51 @@
+@font-face {
+  font-family: SegoeRegular;
+  src: url('./Fonts/Segoe/segoeui.ttf');
+  /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: SegoeBlack;
+  src: url('./Fonts/Segoe/segoeuib.ttf');
+  /* IE9 Compat Modes */
+}
+
+@font-face {
+  font-family: SegoeSemiBold;
+  src: url('./Fonts/Segoe/seguisb.ttf');
+  /* IE9 Compat Modes */
+}
+
+:root {
+  --Regularfont: SegoeRegular;
+  --Blackfont: SegoeBlack;
+  --SemiBoldfont: SegoeSemiBold;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  /* font-family: var(--font); */
+}
+
+button {
+  cursor: pointer;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.setBg {
+  background-image: linear-gradient(lightgreen, rgba(206, 248, 206, 0.9)), url('https://c1.wallpaperflare.com/preview/481/463/709/drink-man-male-car.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#root {
+
+  height: 100%;
+}
